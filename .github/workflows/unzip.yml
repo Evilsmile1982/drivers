@@ -21,7 +21,7 @@ jobs:
         run: |
           mkdir -p extracted
           unzip -o AUTO_CHECK_Drivers_v0.2_UPLOAD.zip -d extracted
-
+          rm -f extracted/.github/workflows/android-apk.yml
       - name: AUTO CHECK Dateien ins Repository kopieren
         run: |
           if [ -d "extracted/auto-check" ]; then
