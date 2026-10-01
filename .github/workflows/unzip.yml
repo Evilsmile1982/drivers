@@ -31,7 +31,7 @@ jobs:
           fi
 
           rm -rf extracted
-          rm -f AUTO_CHECK_Drivers_v0.2.zip
+          rm -f AUTO_CHECK_Drivers_v0.2_UPLOAD.zip
 
       - name: Änderungen speichern
         run: |
