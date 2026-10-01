@@ -48,7 +48,7 @@ function App() {
           <div className="garage-light light-right" />
 
           <div className={`logo-overlay ${introDone ? "logo-settled" : ""}`}>
-            <img src="/assets/auto-check-logo.png" alt="AUTO CHECK" className="logo-image" />
+            <img src={`${import.meta.env.BASE_URL}assets/auto-check-logo.png`} alt="AUTO CHECK" className="logo-image" />
           </div>
         </section>
 
